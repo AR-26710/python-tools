@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 
+
 def convert_image_to_webp(image_path, output_dir):
     # 创建输出目录（如果不存在）
     if not os.path.exists(output_dir):
